@@ -37,8 +37,13 @@ Enrollment on Inactive Account
 
 ## Tech Stack
 •	Java with Spring Boot
+
 •	JUnit for backend unit testing
+
 •	PostgreSQL
+
 •	HTML/CSS/JS or Angular
+
 •	Bootstrap, Tailwind, or PrimeNG for styling
+
 •	GitHub
