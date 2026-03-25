@@ -5,6 +5,10 @@ import java.time.LocalTime;
 
 import com.bank.dashboard.models.enums.ProductType;
 
+import lombok.Builder;
+
+// Use lombok @Builder annotation to help with DTO generation
+@Builder
 public class Product {
     private int id;
     private String name;

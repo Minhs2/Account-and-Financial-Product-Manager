@@ -6,6 +6,10 @@ import java.time.LocalDate;
 import com.bank.dashboard.models.enums.AccountStatus;
 import com.bank.dashboard.models.enums.AccountType;
 
+import lombok.Builder;
+
+// Use lombok @Builder annotation to help with DTO generation
+@Builder
 public class Account {
     private int id;
     private String name;

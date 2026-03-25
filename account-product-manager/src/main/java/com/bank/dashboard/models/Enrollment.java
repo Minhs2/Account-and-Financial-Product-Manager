@@ -4,6 +4,10 @@ import java.time.LocalDate;
 
 import com.bank.dashboard.models.enums.EnrollmentStatus;
 
+import lombok.Builder;
+
+// Use lombok @Builder annotation to help with DTO generation
+@Builder
 public class Enrollment {
     private int id;
     private int accountId;
