@@ -1,5 +1,8 @@
 package com.bank.dashboard.models.enums;
 
-public class ProductType {
-    
+public enum ProductType {
+    OVERDRAFT_PROTECTION,
+    REWARDS_PROGRAM,
+    INSURANCE,
+    CREDIT_LINE
 }

@@ -1,5 +1,7 @@
 package com.bank.dashboard.models.enums;
 
-public class EnrollmentStatus {
-    
+public enum EnrollmentStatus {
+    ACTIVE,
+    SUSPENDED,
+    CANCELLED
 }

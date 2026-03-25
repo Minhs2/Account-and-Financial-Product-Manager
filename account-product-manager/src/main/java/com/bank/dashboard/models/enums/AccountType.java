@@ -1,5 +1,8 @@
 package com.bank.dashboard.models.enums;
 
-public class AccountType {
-    
+public enum AccountType {
+    CHECKING,
+    SAVINGS,
+    MONEY_MARKET,
+    CD
 }

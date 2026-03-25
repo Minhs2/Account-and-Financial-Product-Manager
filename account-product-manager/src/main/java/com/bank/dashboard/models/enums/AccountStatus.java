@@ -1,5 +1,8 @@
 package com.bank.dashboard.models.enums;
 
-public class AccountStatus {
-    
+public enum AccountStatus {
+    ACTIVE,
+    FROZEN,
+    CLOSED
 }
+
